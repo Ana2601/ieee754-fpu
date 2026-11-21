@@ -4,6 +4,8 @@
 
 Add, subtract, multiply and divide for binary32, with all five RISC-V rounding modes, full special-value handling and exact exception flags.
 
+![Architecture](docs/diagrams/architecture.svg)
+
 ## Features
 
 - Rounding: RNE, RTZ, RDN, RUP, RMM
@@ -37,6 +39,12 @@ make test            # 40k vectors (N=... to change)
 make lint
 make synth
 ```
+
+## Test run
+
+Output of the CI command (`make test lint`), captured from a local run:
+
+![Test run](docs/screenshots/test_run.svg)
 
 ## Limitations / next steps
 
